@@ -1,0 +1,7 @@
+.body{
+    background-image: url("../../images/background.jpg");
+    position: relative; /* Ensure proper positioning */
+    z-index: 0;
+    background-size: cover;
+    background-position: center;
+}

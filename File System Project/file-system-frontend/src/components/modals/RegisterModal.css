@@ -1,0 +1,64 @@
+.register-modal{
+    margin: auto;
+    width: 30%;
+    margin-top: 6%;
+    padding-bottom: 50px;
+    box-shadow: 5px 10px 18px #aaaaaa;
+    background-color: #d1d0d0;
+    border-radius: 10px;
+    height: 370px;
+}
+
+.close-register:hover{
+    cursor: pointer;
+}
+
+.modal-header-register{
+    color: #4f4f4f;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 35px;
+}
+
+.form-register{
+    text-align: center;
+}
+
+.input-register{
+    margin-bottom: 15px;
+    width: 200px;
+    height: 25px;
+    font-size: large;
+}
+
+.register-button{
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+}
+
+.register-button:hover{
+    color: #4f4f4f;
+}
+
+.close-register{
+    float: right;
+    padding-right: 10px; 
+    font-size: 30px;
+} 
+
+::placeholder{
+    text-align: center;
+}
+
+label{
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.success{
+    color: green;
+    font-size: 17px;
+    font-weight: bold;
+}

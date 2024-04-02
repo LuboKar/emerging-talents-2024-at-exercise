@@ -1,0 +1,225 @@
+.frame{
+    background-color: #d1d0d0;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #aaaaaa;
+    width: 80%;
+    height: 533px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.content{
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.596);
+    width: 95%;
+    height: 89%;
+    margin: auto ;
+}
+
+.information{
+    width: 100%;
+    height: 7%;
+    align-items: center;
+}
+
+span{
+    font-size: 25px;
+    padding-right: 36px;
+    padding-left: 45px;
+}
+.elements{
+    border-bottom: 1px solid black;
+    padding-top: 3px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.elements:hover{
+    background-color: #c7c7c7;
+}
+
+.element-name{
+    font-size: 25px;
+    color: black;
+    /* padding-left: 100px; */
+    white-space: normal;
+  word-wrap: break-word;
+}
+.element-name:hover{
+    cursor: pointer;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    /* padding-left: 18px; */
+}
+
+.file-container {
+    max-height: 411px; /* Adjust this value as needed */
+    overflow-y: auto;
+    padding-top: 7px;
+}
+
+.return{
+    color: black;
+    padding-left: 10px;
+    font-size: 25px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.return:hover{
+    background-color: #c7c7c7;
+}
+
+.arrow{
+    color: black;
+}
+
+.logo-div{
+    margin-left: 18px;
+}
+
+.fileName-div{
+    margin-left: 100px;
+    width: 50%;
+    overflow: hidden; /* Hide overflow text */
+  white-space: nowrap; /* Prevent wrapping of text */
+  text-overflow: ellipsis;
+}
+
+.fileName-div:hover{
+    cursor: pointer;
+}
+
+.arrow-div{
+    margin-left: 18px;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.more-info{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.more-info-lable{
+    color: black;
+    padding-right: 80px;
+    font-size: large;
+}
+
+.move{
+    color: #4f4f4f;
+}
+
+.move-div{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.move:hover{
+    cursor: pointer;
+}
+
+.download{
+    color: black;
+}
+
+.download:hover{
+    cursor: pointer;
+}
+
+.paste{
+    color: #4f4f4f;
+    font-size: 25px;
+
+}
+.paste:hover{
+    cursor: pointer;
+    color: rgb(140, 140, 140);
+    font-size: 27px;
+}
+
+.paste-div{
+    text-align: center;
+}
+
+.upload-div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.upload{
+    border: 2px solid #4f4f4f;
+    color: green;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+
+.upload:hover{
+    cursor: pointer;
+}
+
+.create-directory-div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.create-directory{
+    border: 2px solid #4f4f4f;
+    color: green;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+
+.create-directory:hover{
+    cursor: pointer;
+}
+
+.download-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.download-icon:hover{
+    cursor: pointer;
+}
+.delete-div{
+    padding-left: 30px;
+}
+
+.delete-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.delete-icon:hover{
+    cursor: pointer;
+}
+
+.rename{
+    padding-left: 100px;
+    margin-right: 408px;
+}
+
+.error-message{
+    color: red;
+    padding-left:45%;
+}
